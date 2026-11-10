@@ -1,0 +1,16 @@
+"""
+Module: Functions Practice
+Description: Demonstrating parameters and return values.
+"""
+
+def calculate_total_steps(morning_steps, evening_steps):
+    total = morning_steps + evening_steps
+    return total
+
+def main():
+    # Calling the function and storing the returned value
+    daily_total = calculate_total_steps(6000, 5500)
+    print(f"Total steps walked today: {daily_total}")
+
+if __name__ == "__main__":
+    main()
